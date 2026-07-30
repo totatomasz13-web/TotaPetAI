@@ -1,24 +1,26 @@
 # TotaPetAI
 
-TotaPetAI is a Windows desktop pet with an AI personality. It lives as a small,
-always-visible companion on the desktop instead of occupying a traditional app
-window.
+TotaPetAI to windowsowy pupil na pulpit z osobowością opartą na sztucznej
+inteligencji. Działa jako mały, stale widoczny towarzysz zamiast tradycyjnego
+okna aplikacji.
 
-## Planned Features
+## Planowane funkcje
 
-- A movable pet character that can be dragged to a chosen place on the screen
-- Persistent position between application launches
-- Simple animations and reactions
-- AI-powered conversations and personality
-- Lightweight Windows desktop experience
+- Przesuwanie pupila w wybrane miejsce na ekranie
+- Zapamiętywanie pozycji między uruchomieniami aplikacji
+- Proste animacje i reakcje
+- Rozmowy oraz osobowość wspierane przez AI
+- Lekka aplikacja przeznaczona dla systemu Windows
+- Polski interfejs i komunikaty
 
-TotaPetAI is a desktop companion and is not intended to replace professional
-veterinary advice.
+TotaPetAI jest towarzyszem na pulpit i nie zastępuje profesjonalnej porady
+weterynaryjnej.
 
 ## Status
 
-Early-stage project. Product architecture and implementation are being developed.
+Projekt jest na wczesnym etapie. Architektura i implementacja są w przygotowaniu.
 
-## License
+## Licencja
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Projekt jest dostępny na licencji MIT. Szczegóły znajdują się w pliku
+[LICENSE](LICENSE).
