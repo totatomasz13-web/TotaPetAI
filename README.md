@@ -1,17 +1,19 @@
 # TotaPetAI
 
-TotaPetAI is an AI-powered pet assistant designed to help pet owners better understand and care for their animals.
+TotaPetAI is a Windows desktop pet with an AI personality. It lives as a small,
+always-visible companion on the desktop instead of occupying a traditional app
+window.
 
-## Vision
+## Planned Features
 
-The project aims to provide practical, accessible guidance for everyday pet care, including:
+- A movable pet character that can be dragged to a chosen place on the screen
+- Persistent position between application launches
+- Simple animations and reactions
+- AI-powered conversations and personality
+- Lightweight Windows desktop experience
 
-- Understanding pet behavior and needs
-- Keeping track of routines, feeding, and medication
-- Providing personalized care suggestions
-- Helping owners prepare questions for veterinarians
-
-TotaPetAI is intended to support pet owners, not replace professional veterinary advice.
+TotaPetAI is a desktop companion and is not intended to replace professional
+veterinary advice.
 
 ## Status
 
