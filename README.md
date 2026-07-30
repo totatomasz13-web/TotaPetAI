@@ -18,7 +18,19 @@ weterynaryjnej.
 
 ## Status
 
-Projekt jest na wczesnym etapie. Architektura i implementacja są w przygotowaniu.
+Pierwsza wersja aplikacji WPF jest gotowa. Pupil może być przeciągany po ekranie,
+a jego pozycja jest zapisywana lokalnie.
+
+## Uruchomienie
+
+Wymagany jest .NET 8 SDK dla systemu Windows.
+
+```powershell
+dotnet run
+```
+
+Przeciągaj pupila lewym przyciskiem myszy. Menu kontekstowe otwiera się prawym
+przyciskiem i pozwala przywrócić pozycję domyślną albo zamknąć aplikację.
 
 ## Licencja
 
