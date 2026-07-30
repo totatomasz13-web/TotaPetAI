@@ -3,7 +3,7 @@
 from datetime import datetime
 import threading
 
-from llm_client import LLMError, ask_llm
+from .llm_client import LLMError, ask_llm
 
 
 class Agent:

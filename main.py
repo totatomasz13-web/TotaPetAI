@@ -1,13 +1,11 @@
 """Punkt startowy TotaPetAI."""
 
 import sys
-import tkinter as tk
-
-from agent import Agent
-from config import load_config
-from desktop_pet import DesktopPet
-from settings_app import SettingsApp
-from telegram_bot import TelegramBot
+from totapet.core.agent import Agent
+from totapet.core.config import load_config
+from totapet.integrations.telegram_bot import TelegramBot
+from totapet.ui.desktop_pet import DesktopPet
+from totapet.ui.settings_app import SettingsApp
 
 
 def run_pet() -> None:

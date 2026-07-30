@@ -3,7 +3,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-from config import save_config
+from ..core.config import save_config
 
 
 class SettingsApp:

@@ -1,0 +1,1 @@
+"""Interfejsy użytkownika TotaPetAI."""

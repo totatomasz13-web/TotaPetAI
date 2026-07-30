@@ -19,6 +19,15 @@ okna aplikacji. Całość jest napisana w Pythonie.
 TotaPetAI jest towarzyszem na pulpit i nie zastępuje profesjonalnej porady
 weterynaryjnej.
 
+## Struktura projektu
+
+```text
+main.py                         # główny plik startowy
+totapet/core/                   # konfiguracja, agent i klient LLM
+totapet/integrations/           # Telegram Bot API
+totapet/ui/                     # pupil na pulpicie i panel sterowania
+```
+
 ## Status
 
 Pierwsza wersja aplikacji Python/Tkinter jest gotowa. Pupil może być przeciągany
@@ -39,7 +48,8 @@ zamknąć aplikację.
 
 ## Ustawienia
 
-Uruchom aplikację konfiguracji poleceniem:
+Panel sterowania jest osobnym oknem. Można go otworzyć z menu pupila albo
+uruchomić bezpośrednio:
 
 ```powershell
 python main.py --ustawienia

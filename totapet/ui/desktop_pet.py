@@ -4,8 +4,9 @@ import subprocess
 import sys
 import tkinter as tk
 from tkinter import messagebox
+from pathlib import Path
 
-from config import save_config
+from ..core.config import save_config
 
 
 class DesktopPet:
@@ -58,7 +59,8 @@ class DesktopPet:
 
     def _menu(self, event):
         menu = tk.Menu(self.root, tearoff=False)
-        menu.add_command(label="Ustawienia", command=lambda: subprocess.Popen([sys.executable, __file__.replace("desktop_pet.py", "main.py"), "--ustawienia"]))
+        main_file = Path(__file__).resolve().parents[2] / "main.py"
+        menu.add_command(label="Panel sterowania", command=lambda: subprocess.Popen([sys.executable, str(main_file), "--ustawienia"]))
         menu.add_command(label="Wróć do domyślnej pozycji", command=self._reset_position)
         menu.add_separator()
         menu.add_command(label="Zamknij", command=self.root.destroy)
